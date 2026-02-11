@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { DistrictData, PredictionResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = import.meta.env.VITE_API_KEY;
 
 export async function fetchCityData(cityName: string): Promise<DistrictData> {
   const prompt = `

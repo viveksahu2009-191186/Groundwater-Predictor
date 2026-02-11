@@ -1,0 +1,7 @@
+{
+  "name": "Groundwater Depletion Forecaster",
+  "description": "A predictive dashboard for District Collectors in India to monitor and forecast groundwater levels using satellite gravity data and rainfall patterns.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
